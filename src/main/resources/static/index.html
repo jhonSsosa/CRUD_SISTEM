@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Management</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+<h1>Real Estate Management</h1>
+
+<form id="propertyForm">
+    <label>Address: <input type="text" id="address" required></label><br>
+    <label>Price: <input type="number" id="price" required></label><br>
+    <label>Size (m²): <input type="number" id="size" required></label><br>
+    <label>Description: <input type="text" id="description" required></label><br>
+    <button type="submit">Add Property</button>
+</form>
+
+<h2>Property Listings</h2>
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Address</th>
+        <th>Price</th>
+        <th>Size</th>
+        <th>Description</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody id="propertyList"></tbody>
+</table>
+</body>
+</html>

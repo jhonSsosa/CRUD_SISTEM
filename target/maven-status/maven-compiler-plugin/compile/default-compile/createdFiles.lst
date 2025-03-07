@@ -1,0 +1,4 @@
+com\example\accessingdatajpa\model\Property.class
+com\example\accessingdatajpa\AccessingDataJpaApplication.class
+com\example\accessingdatajpa\repository\PropertyRepository.class
+com\example\accessingdatajpa\controller\PropertyController.class
