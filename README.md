@@ -137,3 +137,8 @@ http://ec2-18-216-183-219.us-east-2.compute.amazonaws.com:42002/
 
 ---
 
+##  Video montando el servicio
+
+
+https://github.com/user-attachments/assets/56e529d1-b768-4b16-8c9b-1d405f0513bf
+
