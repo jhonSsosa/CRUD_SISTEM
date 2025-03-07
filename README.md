@@ -95,12 +95,12 @@ Para asegurarse que el contenedor escuche el puerto correcto, se necesita tener 
 
 Con todas las configuraciones listas simplemente ejecutar el siguiente comando en la instancia para poder ejecutar el backend ya conectado a una base de datos generado en una instancia con una ip publica:
 
-docker run -d --name backend -p 8080:8080 jhonssosa/lab05:latest
+docker run -d --name backend -p 42002:8080 jhonssosa/lab05:latest
 
 Finalmente para probar la base de datos simplemente escribir en el navegador (Omitir microsoft edge por problemas de compatibilidad) el siguiente link el cual ejecutara el programa en cuesiton:
 
 ```sh
-http://ec2-18-216-183-219.us-east-2.compute.amazonaws.com:8080/
+http://ec2-18-216-183-219.us-east-2.compute.amazonaws.com:42002/
 ```
 
 ### 4. Configuración en AWS
